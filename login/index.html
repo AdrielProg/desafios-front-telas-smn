@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>login</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div id="page" class="flex">
+            <div>
+                <header class="flex">
+                    <img src="./imagens/locotipoSMN.oficial.png" alt="" />
+                </header>
+                <main class="flex">
+                    <div class="head-form">
+                        <h1>Acesse a Plataforma</h1>
+                        <p>Faça login para gerar orçamentos</p>
+                    </div>
+                    <form>
+                        <div class="input-element">
+                            <label for="email">E-mail</label>
+                            <input
+                                type="email"
+                                name="email"
+                                id="email"
+                                required
+                            />
+                        </div>
+                        <div class="input-element flex">
+                            <div class="label-element flex">
+                                <label for="password">Senha</label>
+                                <a href="#">Esqueceu a senha?</a>
+                            </div>
+
+                            <input
+                                type="password"
+                                name="password"
+                                id="password"
+                                required
+                            />
+                            <img
+                                hidden
+                                src="./imagens/svgs/eye-regular.svg"
+                                alt=""
+                            />
+                            <img
+                                hidden
+                                src="./imagens/svgs/eye-regular.svg"
+                                alt=""
+                            />
+                        </div>
+                        <button class="flex" type="submit">Entrar</button>
+                    </form>
+                </main>
+            </div>
+            <img src="./imagens/bg-login.jpg" alt="" />
+        </div>
+    </body>
+</html>
